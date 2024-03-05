@@ -1,0 +1,19 @@
+{
+  "name": "exact-time",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Te dice el tiempo exacto de una región pibe",
+  "main": "index.js",
+  "scripts": {
+    "test": "main.html"
+  },
+  "author": "Benjamín Peralta",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "micromodal": "^0.4.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

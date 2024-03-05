@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ExactTime" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo exacto</title>
+    <link rel="stylesheet" href="/main.af46ece4.css">
+<script src="/main.af46ece4.js"></script></head>
+
+<body>
+    
+    <section id="app">
+        <div id="nombre-region-container">
+            <p id="nombre-region">hola</p>
+            <button id="abrir-modal" data-micromodal-trigger="modal-1">
+                <img src="/look-up-svgrepo-com.068c3222.svg" alt="" height="10px" width="10px">
+            </button>
+        </div>
+        
+        <h1 id="horas-minutos-segundos">- -:- -:- -</h1>
+        <div class="fecha-actual"></div>
+    </section>
+    
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            <header class="modal__header">
+              <h2 class="modal__title" id="modal-1-title">
+                Seleccione una región
+              </h2>
+              <button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+            </header>
+            <main class="modal__content" id="modal-1-content">
+                <form method="post" id="SeleccionarRegion">
+                    <select id="SeleccionadorDeRegiones">
+                    </select><input type="submit" class="modal__btn modal__btn-primary" value="Seleccionar">
+                </form>
+            </main>
+            <footer class="modal__footer">
+              <button class="modal__btn" data-micromodal-close="" aria-label="Close this dialog window">Close</button>
+            </footer>
+          </div>
+        </div>
+    </div>
+    <script src="/App para saber el tiempo exacto de una region.e31bb0bc.js"></script>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+</body>
+</html>
